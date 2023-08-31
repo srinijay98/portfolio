@@ -32,6 +32,18 @@ export default function socialMedia() {
         </a>
       ) : null}
 
+    {socialMediaLinks.orcid ? (
+        <a
+          href={socialMediaLinks.orcid}
+          target="_blank"
+          className="icon-button orcid"
+          rel="noopener noreferrer"
+        >
+        <i className="fab fa-orcid"></i>
+        <span></span>
+        </a>
+      ) : null}
+
       {socialMediaLinks.gmail ? (
         <a
           href={`mailto:${socialMediaLinks.gmail}`}

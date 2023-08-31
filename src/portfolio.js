@@ -35,6 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/srinimit/",
   gmail: "srinivas.jayaram@kellogg.ox.ac.uk",
+  orcid: "https://orcid.org/0009-0002-5066-7893",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
